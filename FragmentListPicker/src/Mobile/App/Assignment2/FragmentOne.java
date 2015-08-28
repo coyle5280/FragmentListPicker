@@ -20,9 +20,13 @@ public class FragmentOne extends Fragment {
     
     public View onCreate(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         
+
         
+        View viewFrag = inflater.inflate(R.layout.frag1, container, false);
+
+
         
-        return inflater.inflate(R.layout.frag1, container, false);
+        return viewFrag;
     }
     
     

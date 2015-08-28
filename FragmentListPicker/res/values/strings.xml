@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">MainActivity</string>
     <string name="Assignment2">This is Assignment 2</string>
+    <string name="text1">Choice 1</string>
+    <string name="text2">Choice 2</string>
+    <string name="text3">Choice 3</string>
+    <string name="text4">Choice 4</string>
+    <string name="ass1"> This is fragment No.1</string>
+    <string name="frag2"> This is fragment No.2 </string>
 </resources>

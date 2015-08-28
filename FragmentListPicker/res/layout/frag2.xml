@@ -9,8 +9,13 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/frag2"
+        android:textStyle="bold" 
+    />
+    <TextView
+        android:id="@+id/changeView"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="This is fragment No.2"
-        android:textStyle="bold" />
-    </LinearLayout>
+    />
+</LinearLayout>
