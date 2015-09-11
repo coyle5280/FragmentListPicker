@@ -9,14 +9,22 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="@string/Assignment2"
+    android:textColor="#ffff00"
     android:layout_gravity="center_horizontal"
     />
 
 <Fragment
-    android:name="Mobile.App.Assignment2.FragmentOne"
+    android:name="Mobile.App.Assignment2.Menu_Item_Fragment"
     android:id="@+id/fragmentHere"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+<Fragment
+    android:name="Mobile.App.Assignment2.Detail_Menu_Fragment"
+    android:id="@+id/fragmentHere2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     />
 
 

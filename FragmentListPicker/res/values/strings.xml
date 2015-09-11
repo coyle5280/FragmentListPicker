@@ -8,4 +8,7 @@
     <string name="text4">Choice 4</string>
     <string name="ass1"> This is fragment No.1</string>
     <string name="frag2"> This is fragment No.2 </string>
+    <string name="portrait_message"> This is fragment No.2 </string>
+
+    <string name="landscape_message"> This is fragment No.1</string>
 </resources>

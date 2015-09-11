@@ -1,16 +1,27 @@
 package Mobile.App.Assignment2;
 
-
-import android.app.Activity;
 import android.os.Bundle;
+import android.app.Activity;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 
-public class MainActivity extends Activity
-{
-    /** Called when the activity is first created. */
+public class MainActivity extends Activity {
+
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setupView();
     }
+
+    private void setupView() {
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction
+                = fragmentManager.beginTransaction();
+
+        Menu_Item_Fragment menu = new Menu_Item_Fragment();
+        fragmentTransaction.add(android.R.id.content, menu);
+        fragmentTransaction.commit();
+
+    }
+
 }
