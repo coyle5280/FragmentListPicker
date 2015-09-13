@@ -10,7 +10,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setupView();
+        //setupView();
+        setContentView(R.layout.main);
     }
 
     private void setupView() {
@@ -19,9 +20,9 @@ public class MainActivity extends Activity {
                 = fragmentManager.beginTransaction();
 
         Menu_Item_Fragment menu = new Menu_Item_Fragment();
-        fragmentTransaction.add(android.R.id.content, menu);
+        fragmentTransaction.add(R.id.fragmentHere, menu);
         fragmentTransaction.commit();
-
+        
     }
 
 }
